@@ -62,6 +62,6 @@ public class DepartmentController {
             departmentRepository.deleteById(id);
             return "Department with id " + id + " deleted successfully";
         }
-        return "Department doesnot exist in database with id " + id;
+        return "Department does not exist in database with id " + id;
     }
 }
